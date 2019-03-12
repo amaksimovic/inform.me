@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url("img/pozadina.jpg");
+	background-attachment: fixed;
+	font-family: 'Open Sans', sans-serif;	
+}
+h1 {
+	font-family: 'Exo 2', sans-serif;
+	text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+	font-size: 55px;
+	font-weight: 700;
+}
+table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+   padding: 10px;
+}
+.title a:link,	
+	  a:visited,  
+	  a:active {
+	text-decoration: none;
+	color: #000; 
+}
+.title a:hover {
+	border-bottom: 2px solid black;
+}
+#logo a:link,	
+	  a:visited, 
+	  a:hover, 
+	  a:active { 
+	text-decoration: none;
+	color: #000;
+}
+#wrapper {
+	width: 960px;
+	margin:10px auto;
+	padding:15px;
+	border: 2px solid #000;
+	background: #DDD;
+}
+header {
+	overflow:hidden;
+}
+#logo {
+	float: left;
+	padding-left: 10px;
+}
+nav {
+	float: right;
+}
+nav ul li {
+	float: left;
+	list-style: none;
+	padding: 55px 20px 0 0;
+	font-weight: bold;
+	font-size: 20px;
+}
+nav a:link,	
+	a:visited { 
+	text-decoration: none;
+	color: #000;
+}
+nav a:hover,
+	a:active {
+	border-bottom: 2px solid black;
+}
+#user {
+	clear: both;
+	float: right;
+	padding:5px;
+}
+section {
+	margin:0px;
+	overflow: hidden;
+}
+div .page {
+	padding: 20px;
+}
+div .login {
+	float: left;
+	width: 410px;
+	height: 270px;
+	margin: 10px ;
+	padding: 20px;
+	border-radius: 10px;
+	border: 2px solid #000;
+}
+article {
+	float: left;
+	width: 410px;
+	height: 460px;
+	margin: 10px ;
+	padding: 10px 20px 20px 20px;
+	border-radius: 10px;
+	border: 2px solid #000;
+	overflow: hidden;
+}
+footer {
+	text-align: center;
+}
